@@ -5,12 +5,12 @@
 
 [官方镜像dockerhub](https://hub.docker.com/_/archlinux)
 
-[当前镜像dockerhub](https://hub.docker.com/chlm/archcn)
+[当前镜像dockerhub](https://hub.docker.com/r/yoqizhe/archcn)
 
 # 运行镜像
 
 ```shell
-docker pull chlm/archcn && docker run -itd --name prearch chlm/archcn /bin/bash
+docker pull yoqizhe/archcn && docker run -itd --name archcn yoqizhe/archcn /bin/bash
 ```
 
 # 自行构建镜像
