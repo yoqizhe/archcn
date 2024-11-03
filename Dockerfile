@@ -1,11 +1,5 @@
 FROM archlinux:latest
 
-# ENV http_proxy=http://host.docker.internal:7890
-# ENV https_proxy=http://host.docker.internal:7890
-
-# RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
-#     echo "Asia/Shanghai" > /etc/timezone
-
 RUN pacman -Syy --noconfirm --debug
 RUN pacman -S --noconfirm archlinux-keyring
 RUN pacman-key --init
