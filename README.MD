@@ -64,7 +64,7 @@ docker commit 容器id cn/archcn
 
 ## pacman的初始化和国内源的步骤
 
-[pacman初始化与国内源](https://www.chlmrh.top/2024/11/03/202411/pacman-init/)
+[pacman初始化与国内源](https://www.chlmrh.top/archlinux/pacman-init/)
 
 ## 为何使用archlinuxcn后不用`pacman-key --populate archlinux-cn`
 
